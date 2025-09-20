@@ -184,6 +184,13 @@ a:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
     border: 2px solid var(--primary-color);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    border-color: var(--secondary-color);
 }
 
 
@@ -368,6 +375,13 @@ a:hover {
     background-color: var(--secondary-color);
     color: var(--dark-color);
     border: 2px solid var(--secondary-color);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-color: var(--primary-color);
 }
 
 
